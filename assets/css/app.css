@@ -1,0 +1,131 @@
+body {
+  width: 30vw;
+  margin: 0 auto;
+  background-color: var(--bs-dark);
+}
+body .main {
+  background-color: var(--bs-light);
+  border-bottom-left-radius: var(--bs-border-radius);
+  border-bottom-right-radius: var(--bs-border-radius);
+  border: 1px var(--bs-body-bg) solid;
+  border-top: none;
+  padding: 40px 15px;
+}
+body .nav-tabs {
+  border-color: var(--bs-body-bg);
+}
+body .nav-item .nav-link {
+  color: var(--bs-light);
+}
+body .nav-item .nav-link.active {
+  background-color: var(--bs-light);
+  border-color: var(--bs-body-bg);
+}
+body .nav-item .dropdown-menu {
+  transform: translate3d(-32px, 40px, 0px) !important;
+}
+body .card .card-img-top {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+body .card .card-text {
+  font-size: 10px !important;
+}
+body .card .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: var(--bs-dark);
+}
+body .card .card-body .card-text {
+  color: var(--bs-light);
+  font-size: 10px !important;
+}
+body .card .card-link {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  color: var(--bs-light) !important;
+}
+body .card .card-link span {
+  margin-left: 5px;
+}
+body .card .card-header {
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+body .card .card-user {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+body .card .card-avatar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+body .card .bi-heart {
+  display: block;
+}
+body .card .bi-heart-fill {
+  display: none;
+}
+body .card.like .bi-heart {
+  display: none;
+}
+body .card.like .bi-heart-fill {
+  display: block;
+}
+body .card-link {
+  color: var(--bs-dark);
+  text-decoration: none;
+}
+body form .form-control:focus {
+  border-color: var(--bs-tertiary-bg);
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
+body form .invalid-feedback {
+  display: block;
+}
+body .profile .profile__img {
+  position: relative;
+  cursor: pointer;
+}
+body .profile .profile__img:hover .profile__popup {
+  opacity: 1;
+}
+body .profile .profile__popup {
+  color: var(--bs-light);
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: var(--bs-border-radius);
+  opacity: 0;
+  transition: 0.3s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - var(--bs-gutter-x) * 1);
+  height: 100%;
+  margin-left: calc(var(--bs-gutter-x) * 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body .post__img {
+  height: 150px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+/*# sourceMappingURL=app.css.map */

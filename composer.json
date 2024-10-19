@@ -1,0 +1,26 @@
+{
+    "name": "hohlova/framework",
+    "description": "Simple PHP Framework",
+    "autoload": {
+        "psr-4": {
+            "Hohlova\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Olga Hohlova",
+            "email": "hohlovaolga.2002@icloud.com"
+        }
+    ],
+    "require-dev": {
+        "larapack/dd": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        }
+    },
+    "require": {
+        "codin/dot": "^0.1.2"
+    }
+}
